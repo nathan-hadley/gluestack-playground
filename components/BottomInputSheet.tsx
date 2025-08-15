@@ -21,7 +21,7 @@ export default function BottomInputSheet({
   return (
     <Actionsheet isOpen={showActionsheet} onClose={handleClose}>
       <ActionsheetBackdrop />
-      <ActionsheetContent className="h-[80%]">
+      <ActionsheetContent>
         <ActionsheetDragIndicatorWrapper>
           <ActionsheetDragIndicator />
           <ActionsheetSectionHeaderText>
